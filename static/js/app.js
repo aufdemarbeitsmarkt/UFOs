@@ -29,3 +29,10 @@ addition = (a, b) => a + b;
 // example of an arrow funciton for doubleAddition
 doubleAddition = (c, d) => addition(c, d) * 2; 
 
+let friends = ['Sarah', 'Greg', 'Cindy', 'Jeff']; 
+
+function listLoop(userList) {
+    for (var i = 0; i < userList.length; i++) {
+        console.log(userList[i]);
+    }
+}
