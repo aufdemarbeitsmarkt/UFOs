@@ -43,15 +43,31 @@
             <div class="row">
                 <div class="col-md-3">
                     <form class="bg-dark">
-                        <p>Filter Search</p>
+                        <p><strong>Filter Search</strong></p>
                         <ul class="list-group bg-dark">
                             <li class="list-group bg-dark">
-                                <label for="date">Enter Date</label>
+                                <label for="date"> <small>Date</small> </label>
                                 <input type="text" placeholder="e.g. 1/10/2010" id="datetime" />
                             </li>
+                            <li class="list-group bg-dark">
+                                <label for="city"> <small>City</small> </label>
+                                <input type="text" placeholder="e.g. st. louis" id="city" />
+                            </li>
+                            <li class="list-group bg-dark">
+                                <label for="state"> <small>State</small> </label>
+                                <input type="text" placeholder="e.g. fl" id="state" />
+                            </li>
+                            <li class="list-group bg-dark">
+                                <label for="country"> <small>Country</small> </label>
+                                <input type="text" placeholder="e.g. us" id="country" />
+                            </li>
+                            <li class="list-group bg-dark">
+                                <label for="shape"> <small>UFO Shape</small> </label>
+                                <input type="text" placeholder="e.g. sphere" id="shape" />
+                            </li>
                             <li class="list-group-item bg-dark">
-                                <button id="filter-btn" type="button" class="btn btn-dark">
-                                    Filter Table
+                                <button id="filter-btn" type="button" class="btn btn-outline-success">
+                                    <strong>Refresh Table</strong>
                                 </button>
                             </li>
                         </ul>
