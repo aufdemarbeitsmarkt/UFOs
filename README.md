@@ -12,7 +12,7 @@ To perform a search, simply input your search criteria in the desired field, the
     
 Search results are conjunctive, meaning that results reflect cases where all search criteria are true. Click `Refresh Table` or refresh the browser to restore the full table of UFO sightings. 
 
-![ufos1.png]('/static/images/ufos1.png')
+![ufos1.png](/static/images/ufos1.png)
 
 
 ## Summary
