@@ -70,7 +70,7 @@ function updateFilters() {
     buildTable(filteredData);
   };
 
-
+// create a function to refresh the page, resetting the table data quickly
 function refresh() {
     reload = location.reload();
 }
@@ -78,6 +78,7 @@ function refresh() {
 // 2. Attach an event to listen for changes to each filter
 d3.selectAll('input').on('change', updateFilters);
   
+// attach an event listener to our button so that we can quickly refresh the page
 d3.selectAll('#filter-btn').on('click', refresh);
 
 // Build the table when the page loads
